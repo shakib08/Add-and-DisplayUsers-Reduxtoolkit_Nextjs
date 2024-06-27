@@ -4,6 +4,7 @@ This is the app which will take user input and display the text using redux-tool
 There are three components in redux:
 1.	Providers: Providers will make a redux layer around the whole web page. In big project it’s necessary to use Providers in the app for making a redux layer. The code for Provider.js 
 
+```store.js
 "use client";
 import { store } from "./store";
 
@@ -18,7 +19,7 @@ Here provider has been made for redux-toolkit. Then use this in layout.js
 <body className={inter.className}>
         <Providers>{children}</Providers>
 </body>
-
+```
 This is how a redux-toolkit has been made around the whole page. 
 
 2.	Store: This is the file where the data’s are stored. The basic code for the set up store is: 

@@ -1,4 +1,4 @@
-# Next.js Redux Toolkit Example
+# Next.js Redux Toolkit 
 
 This is the app which will take user input and display the text using redux-toolkit. 
 There are three components in redux:

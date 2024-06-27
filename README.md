@@ -14,9 +14,8 @@ export function Providers({ children }) {
   return <Provider store={store}>{children}</Provider>;
 } 
 ```
-```layout.js
 Here provider has been made for redux-toolkit. Then use this in layout.js
-
+```layout.js
 <body className={inter.className}>
         <Providers>{children}</Providers>
 </body>

@@ -1,7 +1,8 @@
 # Next.js Redux Toolkit 
 
 This is the app which will take user input and display the text using redux-toolkit. 
-![image](https://github.com/shakib08/Add-and-DisplayUsers-Reduxtoolkit_Nextjs/assets/107428455/33d08df0-58fb-4667-809a-c34b090f83f7)
+![image](https://github.com/shakib08/Add-and-DisplayUsers-Reduxtoolkit_Nextjs/assets/107428455/5e7031d2-ca55-436c-94dc-31322c84d2e2)
+
 
 There are three components in redux:
 1.	Providers: Providers will make a redux layer around the whole web page. In big project it’s necessary to use Providers in the app for making a redux layer. The code for Provider.js 
